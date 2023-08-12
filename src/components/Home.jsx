@@ -29,7 +29,7 @@ const Home = () => {
 
     return (
         <div className="container">
-            <h1>Daily Goals</h1>
+            <h1>Daily Tasks</h1>
             <form onSubmit={submitHandler}>
                 <input
                     type="text"
