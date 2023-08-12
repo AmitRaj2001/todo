@@ -10,7 +10,7 @@ const Home = () => {
     const [title, setTitle] = React.useState("");
     const [description, setDescription] = React.useState("");
 
-    const submitHandler = (e) => {
+    const submitHandler = (e) =>{
         e.preventDefault();
         const newTask = { title, description };
         setTasks([...tasks, newTask]);
