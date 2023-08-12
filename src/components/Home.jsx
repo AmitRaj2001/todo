@@ -14,6 +14,8 @@ const Home = () => {
         e.preventDefault();
         const newTask = { title, description };
         setTasks([...tasks, newTask]);
+        setTitle("");
+        setDescription("");
     };
 
     React.useEffect(() => {
